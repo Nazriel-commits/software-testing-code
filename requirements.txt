@@ -1,0 +1,19 @@
+# Source code requirements:
+
+2 methods + 2 related test methods = 4 methods
+
+All chosen methods:
+	-Must not be empty
+	-Must come from a publicly available source
+
+All non-test methods:
+	-Must have some form of control structure, such as if statements and/or loops
+	-Must contain at least five lines, not to include method declarations or lines containing only brackets
+	-Must have at least one variable
+	-Must have at least one input (explicit or implicit)
+	-Must have one of the following:
+		-Multiple returns
+		-An exception is thrown
+		-A loop is present
+
+
