@@ -8,4 +8,8 @@ def temp_converter():
 @pytest.mark.parametrize("celsius, expected", [(0, 32), (100, 212), (-40, -40)])
 def test_to_fahrenheit(temp_converter, celcius, expected):
   assert temp_converter.to_fahreinheit(celsius) == expected
+
+@pytest.mark.parametrize("fahrenheit, expected", [(32, 0), (212, 100), (-40, -40)])
+def test_to_celsius(temp_converter, fahrenheit, expected):
+  assert temp_converter.to_celsius(fahrenheit) == expected
   
