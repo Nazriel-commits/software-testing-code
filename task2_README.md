@@ -4,9 +4,10 @@ This branch contains example code used to demonstrate the functionality of the P
 
 ## Files
 
-- 'temp_converter.py': Contains a simple class to convert Celsius to Fahrenheit.
-- 'test_temp_converter.py': Unit tests using Pytest with fixture and parameterization.
+- 'temp_converter.py': Contains a simple class 'Temperature Converter' to convert Celsius to Fahrenheit and vice versa.
+- 'test_temp_converter.py': Unit tests using Pytest, showcasing fixture and parameterization testing.
 - 'test_basic.py': Example of basic parameterized testing and fixture usage.
+- 'test_mock_example.py': Demonstrates how to use mocking in Pytest with the 'pytest-mock' plugin.
 
 ## Running Tests
 
